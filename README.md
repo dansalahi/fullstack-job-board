@@ -1,2 +1,2 @@
-# fullstack-list-manager
-A Fullstack List Manager App
+# Fullstack Typescript Job Board
+A Fullstack Job board
