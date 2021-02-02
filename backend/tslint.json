@@ -1,0 +1,20 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-line-length": {
+            "options": [
+                100
+            ]
+        }
+    },
+    "member-ordering": false,
+    "no-consecutive-blank-lines": false,
+    "qoutemark": [
+        true,
+        "single"
+    ],
+    "variable-name": [
+        true,
+        "allow-leading-underscore"
+    ]
+}
