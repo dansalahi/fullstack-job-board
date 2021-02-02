@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for job board application",
+  "main": "index.js",
+  "author": "Dan Salahi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "start": "ts-node build/server.js",
+    "build": "tsc -p .",
+    "command": "ts-node command.ts"
+  }
+}
