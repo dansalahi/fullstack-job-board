@@ -10,5 +10,9 @@
     "start": "ts-node build/server.js",
     "build": "tsc -p .",
     "command": "ts-node command.ts"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
   }
 }
