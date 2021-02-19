@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
-    "@types/mongoose": "^5.10.3"
+    "@types/faker": "^5.1.7",
+    "@types/mongoose": "^5.10.3",
+    "faker": "^5.4.0"
   }
 }
