@@ -32,4 +32,8 @@ export class AuthService {
             return null
         }
     }
+
+    getJwt(): string {
+        return localStorage.getItem(this.tokenKey) as string
+    }
 }
