@@ -4,6 +4,7 @@ import { ICompany } from './icompany.model'
 
 const companySchema: Schema = new Schema({
     name: { type: String, requried: true },
+    logo: { type: String, required: true },
     description: { type: String, required: true },
     size: { type: Number, required: true },
     type: { type: String, required: true },
