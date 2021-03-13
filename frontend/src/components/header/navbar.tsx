@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
 
     icon: {
         color: "#fff",
-        fontSize: '1rem'
+        fontSize: "2rem"
     },
 
 
@@ -42,9 +42,8 @@ const Navbar: React.FC = () => {
                 <Typography className={classes.title} variant="h1" align="left" noWrap>
                     JobListing.
                 </Typography>
-
-                <IconButton className={classes.icon}>
-                    <SortIcon />
+                <IconButton >
+                    <SortIcon className={classes.icon} />
                 </IconButton>
             </Toolbar>
         </AppBar>
