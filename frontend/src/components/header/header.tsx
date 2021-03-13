@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     },
 
 
-    exapandMore: {
+    expandMore: {
         color: '#d35400',
         fontSize: '5rem'
     },
@@ -56,11 +56,12 @@ export default function Header() {
                 <div className={classes.container}>
                     <Typography className={classes.headerTitle} variant="h1" align="center" gutterBottom noWrap>10,253, Job Listed Here!</Typography>
                     <IconButton>
-                        <ExpandMoreIcon className={classes.exapandMore} />
+                        <ExpandMoreIcon className={classes.expandMore} />
                     </IconButton>
                 </div>
             </Collapse>
         </header>
+
     )
 
 
