@@ -10,7 +10,7 @@ import Avatars from './components/header/avatars'
 const useStyles = makeStyles(theme => ({
 
   root: {
-    minHeight: '100vh'
+    minHeight: '100vh',
   }
 
 }))
@@ -21,7 +21,6 @@ function App() {
 
   return (
     <>
-      <FixVideo />
       <div className={classes.root}>
         <CssBaseline />
         <Header />
