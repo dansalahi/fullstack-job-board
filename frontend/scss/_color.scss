@@ -1,0 +1,146 @@
+:root {
+  --white: #fcfcfc;
+  --indigo: #14141f;
+  --blue: #4e3fee;
+  --light-gray: #adadb0;
+  --indigo-2: #343444;
+  --black: #0d0d12;
+  --indigo-3: #242431;
+  --dark-gray: #606067;
+  --black-2: #030303;
+  --indigo-4: #2c2c45;
+  --indigo-5: #292933;
+  --indigo-6: #45426b;
+  --indigo-7: #2e3034;
+
+  --white-2: #fdfdfd;
+  --gray: #919191;
+  --gray-2: #9d9d9d;
+  --gray-3: #bfbfec;
+  --white-3: #d8d8dc;
+  --white-4: #f3f3f3;
+  --white-5: #f1f0f0;
+
+  --indigo-8: #383746;
+  --indigo-9: #262531;
+  --dark-gray-2: #26253166;
+
+  --indigo-10: #3c3c4b;
+  --white-silver: hsl(214, 0%, 87%);
+}
+
+.dark {
+  --primary-text-color: var(--white);
+  --primary-text-color-reverse: var(--black);
+  --bg-color: var(--indigo);
+  --primary-color: var(--blue);
+  --gray-color: var(--light-gray);
+  --icon-bg-color: var(--indigo-2);
+  --bg-color-2: var(--black);
+  --line-color: var(--indigo-3);
+  --primary-color-2: var(--dark-gray);
+  --bg-black: var(--black-2);
+  --nav-color-1: var(--indigo-4);
+  --header-bt-border-color: var(--indigo-5);
+  --nav-inner-li-color: var(--indigo-6);
+  --searchbar-bg-color: var(--indigo-7);
+  --item-box-bg-color: var(--indigo-8);
+  --tabs-hr-color: var(--indigo-9);
+  --tabs-hr-color-2: var(--dark-gray-2);
+  --history-item-hover-color: rgba(0, 0, 0, 0.1);
+  --card-bg-color: var(--indigo-2);
+  --input-border-color: var(--indigo-10);
+  --job-page-tags: var(--indigo-10);
+}
+
+.light {
+  --primary-text-color: var(--indigo);
+  --primary-text-color-reverse: var(--white);
+  --bg-color: var(--white-2);
+  --primary-color: var(--blue);
+  --gray-color: var(--gray);
+  --icon-bg-color: var(--white-2);
+  --bg-color-2: var(--gray-2);
+  --line-color: var(--gray-3);
+  --primary-color-2: var(--white-3);
+  --bg-black: var(--white-4);
+  --nav-color-1: var(--white-5);
+  --header-bt-border-color: var(--gray-3);
+  --nav-inner-li-color: var(--white-3);
+  --searchbar-bg-color: var(--white);
+  --item-box-bg-color: var(--white-4);
+  --tabs-hr-color: var(--white-3);
+  --tabs-hr-color-2: var(--white-5);
+  --history-item-hover-color: rgba(0, 0, 0, 0.03);
+  --card-bg-color: var(--white-2);
+  --input-border-color: var(--gray-3);
+  --job-page-tags: var(--white-silver);
+
+  .searchbar-container {
+    --icon-bg-color: var(--white-4);
+    --primary-color-2: var(--gray);
+  }
+
+  .theme-light {
+    fill: var(--primary-text-color) !important;
+  }
+
+  .picks__categories svg path {
+    stroke: var(--primary-text-color);
+  }
+
+  .functionalities__search path {
+    stroke: var(--primary-text-color);
+  }
+
+  .btn--primary:hover {
+    color: #fff;
+  }
+  .btn--tertiary:hover {
+    color: #fff;
+  }
+
+  .feature__icon {
+    color: var(--bg-color);
+  }
+
+  .footer {
+    h4.text-lg {
+      color: #fff !important;
+    }
+    background: #161616 !important;
+    .social-icon svg path {
+      fill: #000 !important;
+    }
+  }
+
+  .like-tag {
+    background: var(--primary-text-color);
+    color: #fff;
+  }
+
+  .card {
+    .place-bid--active {
+      background: #14141f !important;
+    }
+    .place-bid__checkbox {
+      box-shadow: rgba(255, 255, 255, 0.5) 0 0 12px -2px !important;
+    }
+  }
+}
+
+// --- Font color ---
+.fc-primary {
+  color: var(--primary-color);
+}
+.fc-gray {
+  color: var(--gray-color);
+}
+.fc-white {
+  color: var(--primary-text-color);
+}
+
+// --- Background color ---
+.bg-black {
+  background: var(--bg-black);
+}

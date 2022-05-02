@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Job Founder: Apple</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+
+    <link rel="stylesheet" href="css/formalize.css" />
+    <link rel="stylesheet" href="css/item.min.css" />
+  </head>
+  <body class="dark">
+    
+    <section class="hero">
+      <div class="container flex-center">
+        <h2 class="text-4xl font-semi-bold">Apple Open Positions</h2>
+        <p class="text-sm font-medium"><span class="hero__item-path">Home / Companies /</span> Apple Inc.</p>
+      </div>      
+    </section>
+    <header class="header">
+      <div class="container pos-relative z-9" style="transition: background .8s,box-shadow 0.5s;">
+        <a href="index.html"
+          ><img
+            class="logo img-rendering"
+            src="assets/imgs/01_header/logo_dark.png"
+            alt="logo"
+        /></a>
+
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-container menu-bar__label z-9 flex-center text-base font-semi-bold pointer" for="menu-bar"><i class="fa-solid fa-bars"></i></label>
+
+        <nav class="nav noselect">
+          <ul class="text-base font-semi-bold">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Explore <i class="fa-solid fa-angle-down"></i></a>
+              <ul>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Salaries</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">About Us <i class="fa-solid fa-angle-down"></i></a>
+              <ul>
+                <li><a href="#">Advertisers</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Community <i class="fa-solid fa-angle-down"></i></a>
+              <ul>
+                <li><a href="#">Help / Contact Us</a></li>
+                <li><a href="#">Guidelines</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy & Cookies</a></li>
+                <li><a href="#">Privacy Center</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+              <ul>
+                <li><a href="item.html">Item</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#">Create Item</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__functionalities pos-relative">
+          <div class="functionalities__search pointer">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.5 17.5L13.875 13.875"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <button class="btn btn--primary shadow-1 text-sm font-semi-bold z-1">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Post Job</span>
+          </button>
+          <div class="header__theme-switcher pos-relative z-1">
+            <div class="theme-light icon-container pointer flex-center">
+              
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"><rect fill="none" height="24" width="24"/><path d="M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0 c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2 c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1 C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06 c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41 l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41 c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36 c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg>
+            </div>
+            <div class="theme-dark icon-container pointer flex-center">
+              <img src="assets/imgs/01_header/moon-2.png" alt="dark-mode icon" />
+            </div>
+          </div>
+          <svg
+            class="blur-pattern-1 pos-absolute"
+            width="258"
+            height="230"
+            viewBox="0 0 258 230"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_f_45_2157)">
+              <ellipse cx="129" cy="115" rx="36" ry="22" fill="#5142FB" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_45_2157"
+                x="0"
+                y="0"
+                width="258"
+                height="230"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="46.5"
+                  result="effect1_foregroundBlur_45_2157"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div> 
+    </header>
+
+    <main class="post container">
+     
+      <div class="post-main__header">
+          <img class="post__logo shadow-1"
+          src="assets/imgs/03_live_auctions/apple-logo.jpg"
+          alt=""
+        />
+        <div class="post-main__details">
+          <h3 class="text-4xl font-bold">Apple Inc.</h3>
+        <div class="post-main__tags">
+          <div class="post-main__tag font-medium text-sm shadow-3"><i class="fa-solid fa-building fc-gray"></i> Multinational Technology Company</div>
+            <div class="post-main__tag font-medium text-sm shadow-3"><i class="fa-solid fa-users fc-gray "></i> 50000 ~ 10000 people</div>
+        </div>
+        </div>
+      </div>
+      <div class="post__main ">
+        <div class="post-main__main">
+          <h3 class="text-3xl font-semi-bold">Working at Apple</h3>
+          <p  class="text-base font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae officiis quasi esse aliquid necessitatibus sed tempora pariatur fugiat excepturi nesciunt vero cum, nobis dolorem debitis! Tenetur debitis recusandae tempora excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus officiis officia facilis, ullam commodi deserunt accusantium aspernatur eos itaque id illo delectus. Nulla aliquid nam magni ex earum laborum?</p>
+          <br>
+          <img src="https://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2020/04/original-apple-watch-team.jpeg" alt="" >
+          <br>
+          <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque blanditiis aspernatur at tempora voluptas voluptate ratione beatae corrupti, eveniet exercitationem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, aut alias quisquam laborum recusandae non magnam iure et natus odio.</p>
+          <br><br>
+          <p class="text-base font-medium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, officiis id. Repellat commodi beatae alias architecto assumenda eligendi sit officiis voluptatibus accusantium similique ut tempore optio ab autem perspiciatis, velit dolorum voluptatum, hic excepturi modi! Dolores aliquid beatae consequatur pariatur culpa veritatis a ducimus nulla deserunt adipisci optio dolor voluptatum sed nam, dicta obcaecati debitis reiciendis inventore explicabo maxime modi! Quod modi suscipit laboriosam! Esse illo quo voluptas blanditiis. Dolores quos esse placeat recusandae vitae quo debitis quidem sed exercitationem.</p>
+        </div>
+        <div class="post-main__positions">
+          <div class="post-position">
+            <h4 class="text-base font-bold">Sales Lead, Human Spaceflight</h4>
+            <div class="post-main__tags fc-gray text-sm">
+              <div class="post-main__tag"><i class="fa-solid fa-clock"></i>Full Time</div>
+              <div class="post-main__tag"><i class="fa-solid fa-location-dot"></i>USA, California, Silicon Valley</div>
+              <div class="post-main__tag"><i class="fa-solid fa-code-fork"></i>Sales</div>
+            </div>
+            <p class="position__description text-sm font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt tenetur consequatur quia, repellendus quidem maxime non autem, at officia totam ducimus minima iure, expedita eum assumenda! Dicta ex perspiciatis reprehenderit.</p>
+          </div>
+          <div class="post-position">
+            <h4 class="text-base font-bold">Apple Specialist</h4>
+            <div class="post-main__tags fc-gray text-sm">
+              <div class="post-main__tag"><i class="fa-solid fa-clock"></i>Part Time</div>
+              <div class="post-main__tag"><i class="fa-solid fa-location-dot"></i>USA, California, Silicon Valley</div>
+              <div class="post-main__tag"><i class="fa-solid fa-code-fork"></i>Tech</div>
+            </div>
+            <p class="position__description text-sm font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt tenetur consequatur quia, repellendus quidem maxime non autem, at officia totam ducimus minima iure, expedita eum assumenda! Dicta ex perspiciatis reprehenderit.</p>
+          </div>
+          <div class="post-position">
+            <h4 class="text-base font-bold">Human Resource Specialist</h4>
+            <div class="post-main__tags fc-gray text-sm">
+              <div class="post-main__tag"><i class="fa-solid fa-clock"></i>Full Time</div>
+              <div class="post-main__tag"><i class="fa-solid fa-location-dot"></i>USA, California, Silicon Valley</div>
+              <div class="post-main__tag"><i class="fa-solid fa-code-fork"></i>Management</div>
+            </div>
+            <p class="position__description text-sm font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt tenetur consequatur quia, repellendus quidem maxime non autem, at officia totam ducimus minima iure, expedita eum assumenda! Dicta ex perspiciatis reprehenderit.</p>
+          </div>
+          <div class="post-position">
+            <h4 class="text-base font-bold">Full Stack Developer</h4>
+            <div class="post-main__tags fc-gray text-sm">
+              <div class="post-main__tag"><i class="fa-solid fa-clock"></i>Full Time</div>
+              <div class="post-main__tag"><i class="fa-solid fa-location-dot"></i>USA, California, Silicon Valley</div>
+              <div class="post-main__tag"><i class="fa-solid fa-code-fork"></i>Developer</div>
+            </div>
+            <p class="position__description text-sm font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt tenetur consequatur quia, repellendus quidem maxime non autem, at officia totam ducimus minima iure, expedita eum assumenda! Dicta ex perspiciatis reprehenderit.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <section
+      id="live-auctions"
+      class="auctions section-structure py-6"
+    >
+      <div class="section-header container">
+        <h2 class="text-3xl font-bold">Recommended Jobs</h2>
+        <a
+          href="#"
+          class="section-header__explore text-sm font-normal pos-relative"
+          >Explore More</a
+        >
+      </div>
+      <div id="glide" class="glide">
+        <div class="glide__track pb-2" data-glide-el="track">
+          <div class="auctions__cards glide__slides">
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--1"></div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/apple-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">780</span>
+              </div>
+              <h3 class="card__title font-bold">“Front End Developer”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full time
+                </div>
+                <div
+                  class="creator-tag flex-center bs-tag text-xs font-semi-bold shadow-1"
+                >
+                  Flex sched
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Mid lvl
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Cupertino, California</div>
+              <div class="card__description font-light text-sm">
+                The Apple Media Products engineering team is one of the most exciting examples of Apple’s long-held passion for combining liberal arts and technology. We are the people who power Apple TV, Apple Music, Apple Podcasts, Apple Books, and the App Store. And we do it on a global scale, meeting Apple’s high expectations with high performance to deliver a huge variety of entertainment to more than 150 countries in over 35 languages. These engineers build secure, end-to-end solutions.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$100,000 ~ $125,000</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per year</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--2">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/google-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">520</span>
+              </div>
+              <h3 class="card__title font-bold">“Developer Relations Specialist, Reliable Software Delivery and Operations”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Part time
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Sen lvl
+                </div>
+                <div
+                  class="creator-tag flex-center scb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full day
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Toronto, ON</div>
+              <div class="card__description font-light text-sm">
+                The Customer Advocacy team is made up of technical practitioners with experience building, deploying, and operating applications in Google Cloud. We inspire, educate, and enable customers to transform the way they achieve their technology-enabled business goals. We improve teams' capabilities, allowing them to experience the benefits of using Google Cloud.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$105,000 ~ $115,000</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per year</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--3">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/meta-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">197</span>
+              </div>
+              <h3 class="card__title font-bold">“Software Engineer”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bs-tag text-xs font-semi-bold shadow-1"
+                >
+                  Flex sched
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Mid lvl
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Remote</div>
+              <div class="card__description font-light text-sm">
+                Meta is seeking a Software Engineer to design, develop and implement hardware-near software for accelerators and other components used in our infrastructure. This person will be an integral member of the team, responsible for embedded software design and optimization for these platforms. This person will also be involved in domain specific design and implementation both around hardware management and control, as well as application specific areas such as video processing and machine learning, working with diverse teams within the company.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$28 ~ $38</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per hour</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--4">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/netflix-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">800</span>
+              </div>
+              <h3 class="card__title font-bold">“UI & UX Designer”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full time
+                </div>
+                <div
+                  class="creator-tag flex-center bs-tag text-xs font-semi-bold shadow-1"
+                >
+                  Flex sched
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Mid lvl
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Remote, United States</div>
+              <div class="card__description font-light text-sm">
+                The UI/UX Designer will set a high bar for design, usability, and visual aesthetic in User Interface for all projects. In each area you work on, you will be responsible for developing highly usable game experience and information design. Developing and implementing layouts will also be key to this role. You will also create purely visual elements, skinning existing layouts, icon creation. 
+
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$75,000 ~ $95,000</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per year</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--5">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/amazon-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">133</span>
+              </div>
+              <h3 class="card__title font-bold">“Launch Warehouse Team Member”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full time / Part time
+                </div>
+ 
+                <div
+                  class="creator-tag flex-center scb-tag text-xs font-semi-bold shadow-1"
+                >
+                Paid time off
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Stoney Creek, ON
+              </div>
+              <div class="card__description font-light text-sm">
+                Become part of the dedicated team that gets orders ready for people relying on Amazon’s service. From flexible part-time roles to full-time set schedules with health care benefits, Amazon has a variety of jobs. Find the right Amazon opportunity for you today.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$18.70</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per hour</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--1">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/apple-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">780</span>
+              </div>
+              <h3 class="card__title font-bold">“Front End Developer”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full time
+                </div>
+                <div
+                  class="creator-tag flex-center bs-tag text-xs font-semi-bold shadow-1"
+                >
+                  Flex sched
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Mid lvl
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Cupertino, California</div>
+              <div class="card__description font-light text-sm">
+                The Apple Media Products engineering team is one of the most exciting examples of Apple’s long-held passion for combining liberal arts and technology. We are the people who power Apple TV, Apple Music, Apple Podcasts, Apple Books, and the App Store. And we do it on a global scale, meeting Apple’s high expectations with high performance to deliver a huge variety of entertainment to more than 150 countries in over 35 languages. These engineers build secure, end-to-end solutions.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$100,000 ~ $125,000</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per year</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--2">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/google-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">520</span>
+              </div>
+              <h3 class="card__title font-bold">“Developer Relations Specialist, Reliable Software Delivery and Operations”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Part time
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Sen lvl
+                </div>
+                <div
+                  class="creator-tag flex-center scb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full day
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Toronto, ON</div>
+              <div class="card__description font-light text-sm">
+                The Customer Advocacy team is made up of technical practitioners with experience building, deploying, and operating applications in Google Cloud. We inspire, educate, and enable customers to transform the way they achieve their technology-enabled business goals. We improve teams' capabilities, allowing them to experience the benefits of using Google Cloud.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$105,000 ~ $115,000</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per year</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--3">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/meta-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">197</span>
+              </div>
+              <h3 class="card__title font-bold">“Software Engineer”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bs-tag text-xs font-semi-bold shadow-1"
+                >
+                  Flex sched
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Mid lvl
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Remote</div>
+              <div class="card__description font-light text-sm">
+                Meta is seeking a Software Engineer to design, develop and implement hardware-near software for accelerators and other components used in our infrastructure. This person will be an integral member of the team, responsible for embedded software design and optimization for these platforms. This person will also be involved in domain specific design and implementation both around hardware management and control, as well as application specific areas such as video processing and machine learning, working with diverse teams within the company.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$28 ~ $38</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per hour</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--4">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/netflix-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">800</span>
+              </div>
+              <h3 class="card__title font-bold">“UI & UX Designer”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full time
+                </div>
+                <div
+                  class="creator-tag flex-center bs-tag text-xs font-semi-bold shadow-1"
+                >
+                  Flex sched
+                </div>
+                <div
+                  class="creator-tag flex-center sb-tag text-xs font-semi-bold shadow-1"
+                >
+                  Mid lvl
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Remote, United States</div>
+              <div class="card__description font-light text-sm">
+                The UI/UX Designer will set a high bar for design, usability, and visual aesthetic in User Interface for all projects. In each area you work on, you will be responsible for developing highly usable game experience and information design. Developing and implementing layouts will also be key to this role. You will also create purely visual elements, skinning existing layouts, icon creation. 
+
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$75,000 ~ $95,000</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per year</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a  class="card glide__slide shadow-1">
+              <div class="card__banner card__banner--5">
+                
+              </div>
+              <div class="card__img pos-relative shadow-3">
+                <img
+                  src="assets/imgs/03_live_auctions/amazon-logo.jpg"
+                  alt=""
+                />
+                <!-- <button class="card__place-bid flex-centers pos-absolute shadow-1 pointer">
+                  <p
+                    class="place-bid__txt text-sm font-semi-bold line-height-0"
+                  >
+                    <i class="fa-solid fa-bag-shopping fc-primary"></i>
+                    &nbsp;Place Bid
+                  </p>
+                  <div class="place-bid__checkbox">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                      <path
+                        fill="transparent"
+                        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="card__timer pos-absolute shadow-1 flex-center">
+                  <i class="fa-solid fa-fire-flame-curved"></i
+                  ><span
+                    class="card__timer--txt text-sm font-semi-bold line-height-0"
+                    >5 : 23 : 22 : 08</span
+                  >
+                </div> -->
+              </div>
+              <div
+                class="like-tag flex-center text-xs font-medium noselect pointer shadow-1"
+              >
+                <div class="heart pos-absolute"></div>
+                <span class="pos-absolute">133</span>
+              </div>
+              <h3 class="card__title font-bold">“Launch Warehouse Team Member”</h3>
+              <div class="card__creator">
+                <!-- <div class="creator__bio">
+                  <img
+                    class="bio__avatar shadow-1"
+                    src="assets/img/04_top_seller/avt-5.jpg"
+                    alt=""
+                  />
+                  <div class="bio__name">
+                    <span class="fc-gray text-xs">Creator</span>
+                    <p class="text-sm font-medium line-height-0">
+                      Diego Velázquez
+                    </p>
+                  </div>
+                </div> -->
+                <div
+                  class="creator-tag flex-center bsc-tag text-xs font-semi-bold shadow-1"
+                >
+                  Full time / Part time
+                </div>
+ 
+                <div
+                  class="creator-tag flex-center scb-tag text-xs font-semi-bold shadow-1"
+                >
+                Paid time off
+                </div>
+              </div>
+              <div class="card__location text-sm font-semi-bold">Stoney Creek, ON
+              </div>
+              <div class="card__description font-light text-sm">
+                Become part of the dedicated team that gets orders ready for people relying on Amazon’s service. From flexible part-time roles to full-time set schedules with health care benefits, Amazon has a variety of jobs. Find the right Amazon opportunity for you today.
+              </div>
+              <div class="card__price">
+                <div class="price__bid">
+                  <span class="fc-gray text-xs">Salary: </span>
+                  <p class="text-lg font-semi-bold">
+                    <span class="price__ETH">$18.70</span>
+                    <span class="price__USD fc-gray text-sm font-medium"> per hour</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left flex-center" data-glide-dir="<">
+            <i class="fa-solid fa-caret-left"></i>
+          </button>
+          <button class="glide__arrow glide__arrow--right flex-center" data-glide-dir=">">
+            <i class="fa-solid fa-caret-right"></i>
+          </button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+          <button class="glide__bullet" data-glide-dir="=3"></button>
+          <button class="glide__bullet" data-glide-dir="=4"></button>
+          <button class="glide__bullet" data-glide-dir="=5"></button>
+          <button class="glide__bullet" data-glide-dir="=6"></button>
+          <button class="glide__bullet" data-glide-dir="=7"></button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer py-10">
+      <div class="container">
+        <div class="footer__col">
+          <a href="#"
+            ><img
+              class="img-rendering"
+              src="assets/imgs/01_header/logo_dark.png"
+              alt="logo"
+          /></a>
+          <p class="text-sm fc-gray line-height-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+            adipiscing consectetur phasellus nunc nunc vel.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4 class="text-lg">My Account</h4>
+          <ul class="footer__links text-sm fc-gray font-medium">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">My Offers</a></li>
+            <li><a href="#">My Posts</a></li>
+            <li><a href="#">My Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="text-lg">Resources</h4>
+          <ul class="footer__links text-sm fc-gray font-medium">
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">How to ...</a></li>
+            <li><a href="#">Educational</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="text-lg">Company</h4>
+          <ul class="footer__links text-sm fc-gray font-medium">
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="text-lg">Subscribe Us</h4>
+          <div class="subscribe-input">
+            <input
+              class="subscribe-input__input font-medium"
+              type="email"
+              name="email"
+              placeholder="info@yourgmail.com"
+            />
+            <button class="subscribe-input__btn pointer text-lg">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+          <div class="socials mt-1_5">
+            <a href="#"
+              ><div class="social-icon flex-center">
+                <i class="fa-brands fa-twitter text-lg"></i></div
+            ></a>
+            <a href="#"
+              ><div class="social-icon flex-center">
+                <i class="fa-brands fa-facebook text-lg"></i></div
+            ></a>
+            <a href="#"
+              ><div class="social-icon flex-center">
+                <svg 
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.6992 3.85159L16.0586 16.3047C15.8594 17.1836 15.3398 17.4024 14.6016 16.9883L10.5781 14.0235L8.63672 15.8906C8.42188 16.1055 8.24219 16.2852 7.82813 16.2852L8.11719 12.1875L15.5742 5.44924C15.8984 5.16018 15.5039 5.00002 15.0703 5.28909L5.85157 11.0938L1.88282 9.85159C1.01953 9.58205 1.00391 8.9883 2.0625 8.57424L17.5859 2.59377C18.3047 2.32424 18.9336 2.75393 18.6992 3.85159Z"
+                  />
+                </svg>
+              </div>
+            </a>
+            <a href="#"
+              ><div class="social-icon flex-center">
+                <i class="fa-brands fa-youtube text-lg"></i></div
+            ></a>
+            <a href="#"
+              ><div class="social-icon flex-center">
+                <i class="fa-brands fa-instagram text-lg"></i></div
+            ></a>
+            <a href="#"
+              ><div class="social-icon flex-center">
+                <i class="fa-brands fa-discord text-lg"></i></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="scrolltop flex-center shadow-1 hidden"><svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15.0625 8.78125L8.5 2.21875L1.9375 8.78125" stroke="#5142FB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      </div>
+
+    <script src="./node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script>
+      new Glide("#glide", {
+        type: "slider",
+        autoplay: 2900,
+        bound: "focusAt",
+        gap: 20,
+        dragThreshold: 80,
+        perView: 5,
+        breakpoints: {
+          800: {
+            perView: 4,
+          },
+          600: {
+            perView: 2,
+          },
+          350: {
+            perView: 1,
+          },
+        },
+      }).mount();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/item.js"></script>
+  </body>
+</html>
