@@ -9,8 +9,10 @@
 
   <p align="center">
     Great platform to find your dream job!
-      <br />
-    <a href="https://dansalahi.github.io/fullstack-job-board/frontend/" target="_blank"><strong>Explore jobs »</strong></a>
+     <br />
+    <a href="https://dansalahi.github.io/fullstack-job-board/frontend/" target="_blank"><strong>View Live</strong></a>
+       <br />
+       <br />
     ·
     <a href="https://github.com/dansalahi/fullstack-job-board/issues">Report Bug</a>
     ·
