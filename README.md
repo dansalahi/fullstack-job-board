@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://i.ibb.co/W2cF6RY/logo-dark.png" alt="Logo" width="180">
+    <img src="frontend/assets/imgs/01_header/logo_dark.png" alt="Logo" width="180">
 
   <h3 align="center">.: Job Finder :.</h3>
 
