@@ -9,15 +9,10 @@
 
   <p align="center">
     Great platform to find your dream job!
-    <br />
-    <a href="/"><strong>Explore jobs »</strong></a>
-    <br />
-    <br />
-    <a href="/">View Website</a>
     ·
-    <a href="https://github.com/user/repo/issues">Report Bug</a>
+    <a href="https://github.com/dansalahi/fullstack-job-board/issues">Report Bug</a>
     ·
-    <a href="https://github.com/user/repo/issues">Request Feature</a>
+    <a href="https://github.com/dansalahi/fullstack-job-board/issues">Request Feature</a>
   </p>
 </div>
 
@@ -55,11 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-#### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 #### `yarn build`
 
